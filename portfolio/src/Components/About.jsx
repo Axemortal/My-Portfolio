@@ -12,7 +12,7 @@ export default function About() {
         <div className="container">
           <h2 className="section--title">About</h2>
           <div className="photo-intro-flex">
-            <img src={Person} />
+            <img className="image-myself" src={Person} />
             <div className="section__introduction">
               <h3>Frontend Web Developer</h3>
               <p>
