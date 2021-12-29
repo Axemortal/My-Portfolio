@@ -301,6 +301,10 @@ footer {
   margin-right: 0.5em;
 }
 
+.mail--link {
+  transition: 0.5s;
+}
+
 .mail--link:hover {
   color: black;
 }
