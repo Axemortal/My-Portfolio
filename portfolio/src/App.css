@@ -120,12 +120,11 @@ h1 {
 
 #hero--text {
   color: #0563bb;
-  padding-right: 10px;
-}
-
-.is-typing {
+  padding-right: 7px;
   border-right: solid 3px #0563bb;
 }
+
+
 
 .hero__links {
   display: flex;
@@ -145,6 +144,11 @@ h1 {
 .logo {
   width: 60px;
   height: 60px;
+  transition: 0.7s;
+}
+
+.logo:hover {
+  transform: scale(1.3);
 }
 
 .LinkedIn-logo path,
@@ -299,4 +303,18 @@ footer {
 
 .mail--link:hover {
   color: black;
+}
+
+/* Animations */
+
+.is-typing{
+  animation-name: typing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes typing {
+  from{border-right: solid 3px #0563bb}
+  to{border: none}
 }

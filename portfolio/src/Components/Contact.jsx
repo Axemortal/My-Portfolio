@@ -21,6 +21,7 @@ export default function Contact() {
                 <a
                   href="https://mail.google.com/mail/u/0/?fs=1&to=wuyifan2001@gmail.com&su&cc&bcc&body&tf=cm"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fas fa-envelope"></i>
                 </a>

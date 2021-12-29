@@ -29,21 +29,22 @@ function Header() {
     });
   }
 
-  useEffect(() => {
+  function typeEffect() {
     const heroText = document.getElementById("hero--text");
-    setInterval(() => {
-      // Description does not update every cycle
       if (descriptionArr.includes(description) || description.length === 0) {
         heroText.classList.add("is-typing");
       } else {
-        if (heroText.classList.contains("is-typing")) {
-          heroText.classList.remove("is-typing");
-        } else {
-          heroText.classList.add("is-typing");
-        }
+        heroText.classList.remove("is-typing")
+      //   if (heroText.classList.contains("is-typing")) { 
+      //     heroText.classList.remove("is-typing");
+      //   } else {
+      //     heroText.classList.add("is-typing");
+      //   }
       }
-    }, 1000);
-  }, []);
+    }
+
+    typeEffect()
+  
 
   useEffect(() => {
     //Check to see if it is full to clear or empty to pick next word
