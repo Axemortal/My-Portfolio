@@ -29,21 +29,18 @@ function Header() {
     });
   }
 
-  function typeEffect() {
-    const heroText = document.getElementById("hero--text");
-      if (descriptionArr.includes(description) || description.length === 0) {
-        heroText.classList.add("is-typing");
-      } else {
-        heroText.classList.remove("is-typing")
-      //   if (heroText.classList.contains("is-typing")) { 
-      //     heroText.classList.remove("is-typing");
-      //   } else {
-      //     heroText.classList.add("is-typing");
-      //   }
+  useEffect(() => {
+    function typeEffect() {
+      const heroText = document.getElementById("hero--text");
+        if (descriptionArr.includes(description) || description.length === 0) {
+          heroText.classList.add("is-typing");
+        } else {
+          heroText.classList.remove("is-typing")
+        }
       }
-    }
-
-    typeEffect()
+  
+      typeEffect()
+  })
   
 
   useEffect(() => {
