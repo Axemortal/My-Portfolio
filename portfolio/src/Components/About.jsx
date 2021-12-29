@@ -12,7 +12,7 @@ export default function About() {
         <div className="container">
           <h2 className="section--title">About</h2>
           <div className="photo-intro-flex">
-            <img className="image-myself" src={Person} />
+            <img className="image-myself" src={Person} alt="yifan's potrait" />
             <div className="section__introduction">
               <h3>Frontend Web Developer</h3>
               <p>
@@ -31,7 +31,7 @@ export default function About() {
               <p>
                 I learned Frontend Web Development through a{" "}
                 <span className="link--accent">
-                  <a href="https://scrimba.com/learn/frontend" target="_blank">
+                  <a href="https://scrimba.com/learn/frontend" target="_blank" rel="noopener noreferrer">
                     full course in Scrimba
                   </a>
                 </span>{" "}
@@ -52,10 +52,10 @@ export default function About() {
         <div className="section__skills">
           <h2 className="section--title">Skills</h2>
           <div className="skills--grid">
-            <img className="skill--logo logo_HTML" src={HTMLLogo} />
-            <img className="skill--logo logo_CSS" src={CSSLogo} />
-            <img className="skill--logo logo_JS" src={JSLogo} />
-            <img className="skill--logo logo_React" src={ReactLogo} />
+            <img className="skill--logo logo_HTML" src={HTMLLogo} alt="html logo"/>
+            <img className="skill--logo logo_CSS" src={CSSLogo} alt="css logo"/>
+            <img className="skill--logo logo_JS" src={JSLogo} alt="javascript logo"/>
+            <img className="skill--logo logo_React" src={ReactLogo} alt="react logo"/>
           </div>
         </div>
       </section>

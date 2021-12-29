@@ -83,8 +83,9 @@ function Header() {
             className="hero__link"
             href="https://www.linkedin.com/feed/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <svg
+            <svg 
               className="logo LinkedIn-logo"
               xmlns="http://www.w3.org/2000/svg"
               id="Group_1282"
@@ -118,7 +119,7 @@ function Header() {
           </a>
         </li>
         <li>
-          <a className="hero__link" href="https://github.com/" target="_blank">
+          <a className="hero__link" href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <svg
               className="logo Github-logo"
               width="1024"
