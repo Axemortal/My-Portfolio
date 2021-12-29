@@ -1,5 +1,5 @@
 import React from "react";
-import Person from "../Images/Person.jpg";
+import Person from "../Images/Passport-Photo.jpg";
 import HTMLLogo from "../Images/HTML-logo.svg";
 import CSSLogo from "../Images/CSS-logo.svg";
 import JSLogo from "../Images/Javascript-logo.svg";
