@@ -75,7 +75,7 @@ function Header() {
         <li>
           <a
             className="hero__link"
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/yifan-wu-b40287228/"
             target="_blank"
             rel="noopener noreferrer"
           >
