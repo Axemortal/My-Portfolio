@@ -30,7 +30,7 @@ export default function About() {
               </ul>
               <p>
                 I learned Frontend Web Development through a{" "}
-                <span className="link--accent">
+                <span tabIndex="1" className="link--accent">
                   <a href="https://scrimba.com/learn/frontend" target="_blank" rel="noopener noreferrer">
                     full course in Scrimba
                   </a>

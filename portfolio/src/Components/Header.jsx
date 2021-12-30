@@ -30,16 +30,12 @@ function Header() {
   }
 
   useEffect(() => {
-    function typeEffect() {
       const heroText = document.getElementById("hero--text");
         if (descriptionArr.includes(description) || description.length === 0) {
           heroText.classList.add("is-typing");
         } else {
           heroText.classList.remove("is-typing")
         }
-      }
-  
-      typeEffect()
   })
   
 
@@ -84,6 +80,7 @@ function Header() {
             rel="noopener noreferrer"
           >
             <svg 
+              tabIndex="1"
               className="logo LinkedIn-logo"
               xmlns="http://www.w3.org/2000/svg"
               id="Group_1282"
@@ -119,6 +116,7 @@ function Header() {
         <li>
           <a className="hero__link" href="https://github.com/" target="_blank" rel="noopener noreferrer">
             <svg
+              tabIndex="1"
               className="logo Github-logo"
               width="1024"
               height="1024"

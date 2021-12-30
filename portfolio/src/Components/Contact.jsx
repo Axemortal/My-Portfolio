@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="container">
         <h2 className="footer--title">Contact Me</h2>
         <ul className="contacts">
-          <li className="location">
+          <li>
             <div className="contact--grid">
               <div className="footer--icon">
                 <i className="fas fa-map-marker-alt"></i>
@@ -17,7 +17,7 @@ export default function Contact() {
           <li>
             <div className="contact--grid">
               {/* <a href="mailto:wuyifan2001@gmail.com">Mail</a> */}
-              <div className="footer--icon mail--link">
+              <div tabIndex="1" className="footer--icon mail--link">
                 <a
                   href="https://mail.google.com/mail/u/0/?fs=1&to=wuyifan2001@gmail.com&su&cc&bcc&body&tf=cm"
                   target="_blank"
