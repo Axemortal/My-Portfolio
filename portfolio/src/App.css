@@ -257,6 +257,13 @@ h1,
   max-height: 240px;
 }
 
+@media (max-width: 500px) {
+  .skill--logo {
+    max-width: 170px;
+    max-height: 170px;
+  }
+}
+
 @media (min-width: 800px) {
   .skills--grid {
     grid-template: auto auto / 1fr 1fr 1fr;
