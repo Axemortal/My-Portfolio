@@ -4,6 +4,8 @@ import HTMLLogo from "../Images/HTML-logo.svg";
 import CSSLogo from "../Images/CSS-logo.svg";
 import JSLogo from "../Images/Javascript-logo.svg";
 import ReactLogo from "../Images/React-logo.svg";
+import BSLogo from "../Images/Bootstrap-logo.svg";
+import AngularLogo from "../Images/Angular-logo.svg";
 
 export default function About() {
   return (
@@ -31,7 +33,11 @@ export default function About() {
               <p>
                 I learned Frontend Web Development through a{" "}
                 <span tabIndex="1" className="link--accent">
-                  <a href="https://scrimba.com/learn/frontend" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://scrimba.com/learn/frontend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     full course in Scrimba
                   </a>
                 </span>{" "}
@@ -52,10 +58,36 @@ export default function About() {
         <div className="section__skills">
           <h2 className="section--title">Skills</h2>
           <div className="skills--grid">
-            <img className="skill--logo logo_HTML" src={HTMLLogo} alt="html logo"/>
-            <img className="skill--logo logo_CSS" src={CSSLogo} alt="css logo"/>
-            <img className="skill--logo logo_JS" src={JSLogo} alt="javascript logo"/>
-            <img className="skill--logo logo_React" src={ReactLogo} alt="react logo"/>
+            <img
+              className="skill--logo logo_HTML"
+              src={HTMLLogo}
+              alt="html logo"
+            />
+            <img
+              className="skill--logo logo_CSS"
+              src={CSSLogo}
+              alt="css logo"
+            />
+            <img
+              className="skill--logo logo_JS"
+              src={JSLogo}
+              alt="javascript logo"
+            />
+            <img
+              className="skill--logo logo_React"
+              src={ReactLogo}
+              alt="react logo"
+            />
+            <img
+              className="skill--logo logo_BS"
+              src={BSLogo}
+              alt="bootstrap logo"
+            />
+            <img
+              className="skill--logo logo_Angular"
+              src={AngularLogo}
+              alt="angular logo"
+            />
           </div>
         </div>
       </section>
