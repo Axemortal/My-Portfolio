@@ -45,9 +45,11 @@ export default function About() {
                 CSS, Javascript and can use React to build websites. This is my
                 first individual project on building websites with React!
               </p>
+              <br></br>
               <p>
-                I am currently available to work full-time and am actively
-                searching for internships related to programming.
+                I am currently enrolled in the Renaissance Engineering Programme
+                in NTU and am actively searching for internships related to
+                programming.
               </p>
             </div>
           </div>
